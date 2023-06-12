@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+    color: #030801;
+}
+.dropdown-box ul li{
+    display: inline-block;
+    margin: 0 24px;
+}
+.dropdown-box ul li a{
+    text-decoration: none;
+}
+.dropdown-box > ul {
+    position: relative;
+}
+.sub-dropdown{
+    display: none;
+    position: relative;
+}
+.sub-dropdown li{
+    color: white;
+    background: #030801 !important;
+    position: absolute;
+    border-radius: 8px;
+    padding: 10px 14px;
+    left: -24px;
+    display: block !important;
+}
+.sub-dropdown li:hover{
+    background-color: blue !important;
+    color: gray;
+}
+.sub-dropdown li a{
+    color: white;
+}
+.btn:hover .sub-dropdown{
+    display: block;
+}
+.menu-container{
+    gap: 0;
+    display: flex;
+}
+.menu-container  .second-div{
+    width: 45%;
+    
+}
